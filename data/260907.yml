@@ -5,19 +5,19 @@ about:
   head: a96c3bc
   archived: false
   latestVersion: ""
-  collectedAt: 2026-09-07T05:43:42Z
+  collectedAt: 2026-09-07T18:42:29Z
 timeline:
   created: 2015-08-18
   lastCommit: 2026-09-06
   lastRelease: 
 popularity:
-  star: 40866
+  star: 40868
   watcher: 659
-  fork: 6138
+  fork: 6137
   release: 0
   contributor: 795
-  pullRequest: 11174
-  issue: 9759
+  pullRequest: 11178
+  issue: 9760
 language:
   Vim Script: 21697954
   C: 15912604
@@ -71,60 +71,60 @@ recent:
     since: 2026-08-08
     release: 0
     mergedPR: 0
-    openPR: 32
-    closedIssue: 52
+    openPR: 36
+    closedIssue: 53
     openIssue: 14
     commit: 176
   last60d:
     since: 2026-07-09
     release: 0
     mergedPR: 0
-    openPR: 40
-    closedIssue: 112
+    openPR: 44
+    closedIssue: 113
     openIssue: 19
     commit: 505
   last90d:
     since: 2026-06-09
     release: 0
     mergedPR: 0
-    openPR: 46
-    closedIssue: 157
+    openPR: 50
+    closedIssue: 158
     openIssue: 29
     commit: 708
   last180d:
     since: 2026-03-11
     release: 0
     mergedPR: 0
-    openPR: 55
-    closedIssue: 311
+    openPR: 59
+    closedIssue: 312
     openIssue: 83
     commit: 1443
   last360d:
     since: 2025-09-12
     release: 0
     mergedPR: 0
-    openPR: 61
-    closedIssue: 615
+    openPR: 65
+    closedIssue: 616
     openIssue: 157
     commit: 2510
   last720d:
     since: 2024-09-17
     release: 0
     mergedPR: 2
-    openPR: 72
-    closedIssue: 1208
+    openPR: 76
+    closedIssue: 1209
     openIssue: 320
     commit: 4216
 total:
   release: 0
   mergedPR: 440
-  openPR: 79
-  closedIssue: 8197
+  openPR: 83
+  closedIssue: 8198
   openIssue: 1562
   commit: 24409
 ---
 path: /home/runner/.x-repo/github.com/vim/vim
-collectedAt: 2026-09-07T05:44:49Z
+collectedAt: 2026-09-07T18:43:23Z
 loc:
   VimScript:
     code: 576728
@@ -473,7 +473,7 @@ checks:
       - 'Info:   0 out of   2 chocoCommand dependencies pinned'
 ---
 eget:
-  collectedAt: 2026-09-07T05:44:51+00:00
+  collectedAt: 2026-09-07T18:43:25+00:00
   platform:
     darwin/arm64:
       name:  null
