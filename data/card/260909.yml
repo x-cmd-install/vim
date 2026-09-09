@@ -2,29 +2,29 @@ about:
   description: "The official Vim repository"
   license: Vim
   homepage: https://www.vim.org
-  head: 5d934b1
+  head: a464b8c
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:51:59Z
+  collectedAt: 2026-09-09T20:26:58Z
 timeline:
   created: 2015-08-18
-  lastCommit: 2026-09-08
+  lastCommit: 2026-09-09
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 40873
+  star: 40879
   watcher: 659
   fork: 6134
   release: 0
-  contributor: 798
-  pullRequest: 11183
-  issue: 9761
+  contributor: 800
+  pullRequest: 11188
+  issue: 9762
 language:
-  Vim Script: 21712796
-  C: 15920842
+  Vim Script: 21715200
+  C: 15921701
   Roff: 700138
   Makefile: 500398
   C++: 254768
@@ -69,76 +69,76 @@ language:
   Dockerfile: 414
   Haskell: 84
   CSS: 81
-totalBytes: 40403505
+totalBytes: 40406768
 recent:
   last30d:
     since: 2026-08-10
     release: 0
     mergedPR: 0
-    openPR: 19
+    openPR: 18
     closedIssue: 49
-    openIssue: 11
-    commit: 202
+    openIssue: 12
+    commit: 210
   last60d:
     since: 2026-07-11
     release: 0
     mergedPR: 0
-    openPR: 28
+    openPR: 27
     closedIssue: 110
-    openIssue: 19
-    commit: 531
+    openIssue: 20
+    commit: 539
   last90d:
     since: 2026-06-11
     release: 0
     mergedPR: 0
-    openPR: 31
+    openPR: 30
     closedIssue: 158
-    openIssue: 27
-    commit: 734
+    openIssue: 28
+    commit: 742
   last180d:
     since: 2026-03-13
     release: 0
     mergedPR: 0
-    openPR: 40
+    openPR: 39
     closedIssue: 309
-    openIssue: 81
-    commit: 1469
+    openIssue: 82
+    commit: 1477
   last360d:
     since: 2025-09-14
     release: 0
     mergedPR: 0
-    openPR: 47
+    openPR: 46
     closedIssue: 614
-    openIssue: 156
-    commit: 2536
+    openIssue: 157
+    commit: 2544
   last720d:
     since: 2024-09-19
     release: 0
     mergedPR: 2
-    openPR: 58
+    openPR: 57
     closedIssue: 1209
-    openIssue: 318
-    commit: 4230
+    openIssue: 319
+    commit: 4236
 total:
   release: 0
   mergedPR: 440
-  openPR: 65
-  closedIssue: 8200
-  openIssue: 1561
-  commit: 24430
+  openPR: 64
+  closedIssue: 8202
+  openIssue: 1560
+  commit: 24436
 ---
 path: /home/runner/.x-repo/github.com/vim/vim
-collectedAt: 2026-09-09T05:53:02Z
+collectedAt: 2026-09-09T20:27:56Z
 loc:
   VimScript:
-    code: 577051
-    comments: 25293
-    blanks: 30336
+    code: 577150
+    comments: 25297
+    blanks: 30330
     files: 2575
   C:
-    code: 442310
-    comments: 78003
-    blanks: 48816
+    code: 442318
+    comments: 78015
+    blanks: 48818
     files: 220
   CHeader:
     code: 33592
@@ -337,13 +337,13 @@ loc:
     files: 11
   Text:
     code: 0
-    comments: 247664
-    blanks: 53120
+    comments: 247675
+    blanks: 53122
     files: 254
 total:
-  code: 1098344
-  comments: 365879
-  blanks: 145292
+  code: 1098451
+  comments: 365906
+  blanks: 145290
   files: 3598
 ---
 date: "2026-09-07"
