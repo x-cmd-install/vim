@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:57:49Z
+  collectedAt: 2026-09-10T17:55:24Z
 timeline:
   created: 2015-08-18
   lastCommit: 2026-09-09
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 40884
+  star: 40887
   watcher: 659
-  fork: 6134
+  fork: 6136
   release: 0
   contributor: 800
-  pullRequest: 11191
+  pullRequest: 11196
   issue: 9762
 language:
   Vim Script: 21715200
@@ -75,7 +75,7 @@ recent:
     since: 2026-08-11
     release: 0
     mergedPR: 0
-    openPR: 19
+    openPR: 24
     closedIssue: 47
     openIssue: 12
     commit: 211
@@ -83,7 +83,7 @@ recent:
     since: 2026-07-12
     release: 0
     mergedPR: 0
-    openPR: 28
+    openPR: 33
     closedIssue: 110
     openIssue: 20
     commit: 540
@@ -91,7 +91,7 @@ recent:
     since: 2026-06-12
     release: 0
     mergedPR: 0
-    openPR: 32
+    openPR: 37
     closedIssue: 155
     openIssue: 27
     commit: 743
@@ -99,7 +99,7 @@ recent:
     since: 2026-03-14
     release: 0
     mergedPR: 0
-    openPR: 41
+    openPR: 46
     closedIssue: 305
     openIssue: 76
     commit: 1478
@@ -107,28 +107,28 @@ recent:
     since: 2025-09-15
     release: 0
     mergedPR: 0
-    openPR: 48
-    closedIssue: 611
-    openIssue: 156
+    openPR: 53
+    closedIssue: 612
+    openIssue: 155
     commit: 2545
   last720d:
     since: 2024-09-20
     release: 0
     mergedPR: 2
-    openPR: 59
-    closedIssue: 1208
-    openIssue: 317
+    openPR: 64
+    closedIssue: 1209
+    openIssue: 316
     commit: 4230
 total:
   release: 0
   mergedPR: 440
-  openPR: 66
-  closedIssue: 8202
-  openIssue: 1560
+  openPR: 71
+  closedIssue: 8203
+  openIssue: 1559
   commit: 24437
 ---
 path: /home/runner/.x-repo/github.com/vim/vim
-collectedAt: 2026-09-10T05:58:42Z
+collectedAt: 2026-09-10T17:56:29Z
 loc:
   VimScript:
     code: 577150
