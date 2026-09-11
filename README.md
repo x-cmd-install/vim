@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,887 · **Forks**: 6,137 · **Open issues**: 9,764 · **Contributors**: 800
+- **Stars**: 40,887 · **Forks**: 6,136 · **Open issues**: 9,764 · **Contributors**: 800
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 64 · **Closed issues**: 8203 · **Open issues**: 1561 · **Commits**: 24448
+- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 66 · **Closed issues**: 8203 · **Open issues**: 1561 · **Commits**: 24448
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 17 | 47 | 14 | 225 |
-| last60d | 2026-07-12 | 0 | 0 | 26 | 110 | 22 | 554 |
-| 90d | 2026-06-12 | 0 | 0 | 30 | 155 | 29 | 757 |
-| last180d | 2026-03-14 | 0 | 0 | 39 | 305 | 78 | 1492 |
-| 360d | 2025-09-15 | 0 | 0 | 46 | 612 | 157 | 2559 |
-| last720d | 2024-09-20 | 0 | 2 | 57 | 1209 | 318 | 4241 |
+| 30d | 2026-08-12 | 0 | 0 | 18 | 46 | 13 | 225 |
+| last60d | 2026-07-13 | 0 | 0 | 27 | 108 | 22 | 554 |
+| 90d | 2026-06-13 | 0 | 0 | 32 | 149 | 28 | 757 |
+| last180d | 2026-03-15 | 0 | 0 | 40 | 303 | 76 | 1492 |
+| 360d | 2025-09-16 | 0 | 0 | 48 | 610 | 157 | 2559 |
+| last720d | 2024-09-21 | 0 | 2 | 59 | 1209 | 318 | 4236 |
 
 ## Distribution status
 
-Reported by **2097** distros on [repology.org](https://repology.org/project/vim). **6** are ✅ on the latest upstream release, **430** are ⚠️ on an older version.
+Reported by **2099** distros on [repology.org](https://repology.org/project/vim). **6** are ✅ on the latest upstream release, **431** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -71,7 +71,7 @@ Reported by **2097** distros on [repology.org](https://repology.org/project/vim)
 | Ubuntu 26.04 LTS | `9.1.2141` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.1.0016` | ⚠️ outdated |
 | Arch | `9.2.1046` | ⚠️ outdated |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `9.2.1050` | ⚠️ outdated |
 | Fedora rawhide | `9.2.967` | ⚠️ outdated |
 | Nix unstable | `9.2.0782` | ⚠️ outdated |
 | Void | `9.2.1031` | ⚠️ outdated |
@@ -87,4 +87,4 @@ Install metadata for vim lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:29:38Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:48:12Z._
