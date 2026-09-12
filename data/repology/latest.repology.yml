@@ -1,16 +1,16 @@
 - repo: aix_osp
   srcname: vim
   visiblename: vim
-  version: 7.3.661
-  origversion: 7.3.661-1
+  version: 7.3.762
+  origversion: 7.3.762-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: vim
   visiblename: vim
-  version: 7.4.460
-  origversion: 7.4.460-1
-  status: outdated
+  version: 7.4.052
+  origversion: 7.4.052-1
+  status: legacy
   vulnerable: true
 - repo: aixtoolbox
   srcname: vim
@@ -23,39 +23,6 @@
     - Vim
   categories:
     - Applications/Editors
-- repo: amazon_2
-  srcname: vim
-  visiblename: vim
-  version: 8.2.5172
-  origversion: 2:8.2.5172-1.amzn2.0.1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.2.368
-  origversion: 7.2.368-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.3.099
-  origversion: 7.3.099-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.3.475
-  origversion: 7.3.475-1
-  status: legacy
-  vulnerable: true
 - repo: aerynos
   srcname: vim
   visiblename: vim
@@ -394,8 +361,8 @@
     - xxd
     - xxd-debuginfo
   visiblename: vim
-  version: 9.2.0752
-  origversion: 4:9.2.0752-alt1
+  version: 9.2.1067
+  origversion: 4:9.2.1067-alt1
   status: outdated
   summary: VIsual editor iMproved
   maintainers:
@@ -404,19 +371,6 @@
     - Vim
   categories:
     - Editors
-- repo: amazon_1
-  subrepo: updates
-  srcname: vim
-  visiblename: vim
-  version: 9.0.475
-  origversion: 2:9.0.475-1.1.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: aosc
   srcname: app-editors/vim
   binname: vim
@@ -432,12 +386,12 @@
 - repo: arch
   subrepo: extra
   srcname: vim
-  binname: vim-runtime
-  visiblename: vim-runtime
+  binname: gvim
+  visiblename: gvim
   version: 9.2.1046
   origversion: 9.2.1046-1
   status: outdated
-  summary: Vi Improved, a highly configurable, improved version of the vi text editor (shared runtime)
+  summary: Vi Improved, a highly configurable, improved version of the vi text editor (with advanced features, such as a GUI)
   licenses:
     - custom:vim
 - repo: arch
@@ -454,12 +408,12 @@
 - repo: arch
   subrepo: extra
   srcname: vim
-  binname: gvim
-  visiblename: gvim
+  binname: vim-runtime
+  visiblename: vim-runtime
   version: 9.2.1046
   origversion: 9.2.1046-1
   status: outdated
-  summary: Vi Improved, a highly configurable, improved version of the vi text editor (with advanced features, such as a GUI)
+  summary: Vi Improved, a highly configurable, improved version of the vi text editor (shared runtime)
   licenses:
     - custom:vim
 - repo: aur
@@ -722,6 +676,18 @@
   maintainers:
     - team+vim@tracker.debian.org
     - jamessan@debian.org
+- repo: freebsd
+  srcname: sysutils/xxd
+  binname: xxd
+  visiblename: sysutils/xxd
+  version: 9.2.0738
+  origversion: null
+  status: outdated
+  summary: Hexdump and reverse hexdump utility from vim distribution
+  maintainers:
+    - gmarco@giovannelli.it
+  categories:
+    - sysutils
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: vim
@@ -745,14 +711,6 @@
     - jamessan@debian.org
   categories:
     - editors
-- repo: distri
-  srcname: vim
-  binname: vim
-  visiblename: vim
-  version: "8.2"
-  origversion: 8.2-5
-  status: outdated
-  vulnerable: true
 - repo: exherbo
   subrepo: arbor
   srcname: app-editors/gvim
@@ -789,6 +747,32 @@
     - fallback-mnt-exherbo@repology
   categories:
     - app-editors
+- repo: gentoo
+  srcname: dev-util/xxd
+  visiblename: dev-util/xxd
+  version: 2025.08.24
+  origversion: 2025.08.24-r1
+  status: incorrect
+  summary: Standalone version of Vim's xxd
+  maintainers:
+    - holger@applied-asynchrony.com
+    - proxy-maint@gentoo.org
+  licenses:
+    - '|| ( GPL-2 MIT )'
+  categories:
+    - dev-util
+- repo: freebsd
+  srcname: editors/vim
+  binname: vim-gtk3
+  visiblename: editors/vim
+  version: 9.2.0738
+  origversion: null
+  status: outdated
+  summary: Improved version of the vi editor (gtk3 flavor)
+  maintainers:
+    - adamw@freebsd.org
+  categories:
+    - editors
 - repo: fedora_43
   subrepo: updates
   srcname: vim
@@ -802,8 +786,8 @@
     - vim-default-editor
     - vim-X11
   visiblename: vim
-  version: 9.2.967
-  origversion: 2:9.2.967-1.fc43
+  version: 9.2.1061
+  origversion: 2:9.2.1061-1.fc43
   status: outdated
   summary: The VIM editor
   licenses:
@@ -823,8 +807,8 @@
     - vim-default-editor
     - vim-X11
   visiblename: vim
-  version: 9.2.967
-  origversion: 2:9.2.967-1.fc44
+  version: 9.2.1061
+  origversion: 2:9.2.1061-1.fc44
   status: outdated
   summary: The VIM editor
   licenses:
@@ -878,18 +862,6 @@
     - editors
 - repo: freebsd
   srcname: editors/vim
-  binname: vim-gtk3
-  visiblename: editors/vim
-  version: 9.2.0738
-  origversion: null
-  status: outdated
-  summary: Improved version of the vi editor (gtk3 flavor)
-  maintainers:
-    - adamw@freebsd.org
-  categories:
-    - editors
-- repo: freebsd
-  srcname: editors/vim
   binname: vim-motif
   visiblename: editors/vim
   version: 9.2.0738
@@ -924,32 +896,6 @@
     - adamw@freebsd.org
   categories:
     - editors
-- repo: freebsd
-  srcname: sysutils/xxd
-  binname: xxd
-  visiblename: sysutils/xxd
-  version: 9.2.0738
-  origversion: null
-  status: outdated
-  summary: Hexdump and reverse hexdump utility from vim distribution
-  maintainers:
-    - gmarco@giovannelli.it
-  categories:
-    - sysutils
-- repo: gentoo
-  srcname: dev-util/xxd
-  visiblename: dev-util/xxd
-  version: 2025.08.24
-  origversion: 2025.08.24-r1
-  status: incorrect
-  summary: Standalone version of Vim's xxd
-  maintainers:
-    - holger@applied-asynchrony.com
-    - proxy-maint@gentoo.org
-  licenses:
-    - '|| ( GPL-2 MIT )'
-  categories:
-    - dev-util
 - repo: gentoo
   srcname: app-editors/vim-core
   visiblename: app-editors/vim-core
@@ -1050,8 +996,8 @@
   srcname: vim
   binname: vim
   visiblename: vim
-  version: 9.2.1067
-  origversion: 9.2.1067-1
+  version: 9.2.1070
+  origversion: 9.2.1070-1
   status: newest
   summary: Vi Improved, a highly configurable, improved version of the vi text editor.
   maintainers:
@@ -1067,6 +1013,15 @@
   status: rolling
   maintainers:
     - dylan.araps@gmail.com
+- repo: gnuguix
+  srcname: vim
+  binname: vim
+  visiblename: vim
+  version: 9.2.0333
+  origversion: null
+  status: outdated
+  summary: Text editor based on vi
+  vulnerable: true
 - repo: liguros_stable
   srcname: app-editors/vim
   visiblename: app-editors/vim
@@ -1112,15 +1067,6 @@
     - vim
   categories:
     - app-editors
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: vim
-  binname: vim
-  visiblename: vim
-  version: "7.4"
-  origversion: null
-  status: legacy
-  vulnerable: true
 - repo: liguros_develop
   srcname: dev-util/xxd
   visiblename: dev-util/xxd
@@ -1405,26 +1351,6 @@
     - philip.taron@gmail.com
   licenses:
     - Vim
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: vim-gvim
-  visiblename: vim-gvim
-  version: 9.2.1046
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: openindiana
-  subrepo: hipster
-  srcname: vim
-  binname: editor/vim
-  visiblename: vim
-  version: 9.2.0800
-  origversion: null
-  status: legacy
-  summary: Vi IMproved
-  categories:
-    - Development/Editors
 - repo: npackd_stable64
   srcname: org.vim.Vim64
   binname: org.vim.Vim64
@@ -1701,6 +1627,17 @@
 - repo: openindiana
   subrepo: hipster
   srcname: vim
+  binname: editor/vim
+  visiblename: vim
+  version: 9.2.0800
+  origversion: null
+  status: legacy
+  summary: Vi IMproved
+  categories:
+    - Development/Editors
+- repo: openindiana
+  subrepo: hipster
+  srcname: vim
   binname: editor/vim/vim-core
   visiblename: vim
   version: 9.2.0800
@@ -1897,7 +1834,7 @@
   categories:
     - Applications/Text
 - repo: openmamba
-  subrepo: devel-autodist
+  subrepo: devel-makedist
   srcname: vim
   binnames:
     - vim
@@ -1910,7 +1847,7 @@
   visiblename: vim
   version: 9.2.1067
   origversion: 9.2.1067-1mamba
-  status: newest
+  status: outdated
   summary: VIsual editor iMproved
   maintainers:
     - silvan@openmamba.org
@@ -1930,7 +1867,7 @@
   visiblename: vim
   version: 9.2.1067
   origversion: 2:9.2.1067-1
-  status: newest
+  status: outdated
   summary: The VIM editor
   maintainers:
     - bero@lindev.ch
@@ -1974,12 +1911,12 @@
 - repo: parabola
   subrepo: extra
   srcname: vim
-  binname: vim-runtime
-  visiblename: vim-runtime
+  binname: gvim
+  visiblename: gvim
   version: 9.2.1046
   origversion: 9.2.1046-1
   status: outdated
-  summary: Vi Improved, a highly configurable, improved version of the vi text editor (shared runtime)
+  summary: Vi Improved, a highly configurable, improved version of the vi text editor (with advanced features, such as a GUI)
   licenses:
     - custom:vim
 - repo: parabola
@@ -1996,12 +1933,12 @@
 - repo: parabola
   subrepo: extra
   srcname: vim
-  binname: gvim
-  visiblename: gvim
+  binname: vim-runtime
+  visiblename: vim-runtime
   version: 9.2.1046
   origversion: 9.2.1046-1
   status: outdated
-  summary: Vi Improved, a highly configurable, improved version of the vi text editor (with advanced features, such as a GUI)
+  summary: Vi Improved, a highly configurable, improved version of the vi text editor (shared runtime)
   licenses:
     - custom:vim
 - repo: pkgsrc_2026_2
@@ -2076,6 +2013,16 @@
     - morr@netbsd.org
   categories:
     - editors
+- repo: os4depot
+  binname: utility/text/edit/vim.lha
+  visiblename: vim.lha
+  version: 7.0r3
+  origversion: null
+  status: outdated
+  summary: A text editor for AmiCygnix
+  categories:
+    - utility/text/edit
+  vulnerable: true
 - repo: pkgsrc_current
   srcname: editors/vim
   binname: vim
@@ -2166,15 +2113,6 @@
     - fallback-mnt-ravenports@repology
   categories:
     - editors
-- repo: ptxdist
-  srcname: vim
-  visiblename: vim
-  version: 9.1.1868
-  origversion: null
-  status: outdated
-  licenses:
-    - Vim
-  vulnerable: true
 - repo: rosa_2019_1
   subrepo: main/release
   srcname: vim
@@ -2259,6 +2197,15 @@
   subrepo: slackware64
   binname: vim
   visiblename: vim
+  version: 9.2.1046
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: vim-gvim
+  visiblename: vim-gvim
   version: 9.2.1046
   origversion: null
   status: outdated
@@ -2427,32 +2374,6 @@
 - repo: void_x86_64
   subrepo: x86_64
   srcname: vim
-  binname: gvim
-  visiblename: gvim
-  version: 9.2.1031
-  origversion: 9.2.1031_1
-  status: outdated
-  summary: Vim editor (vi clone) - GTK+ GUI
-  maintainers:
-    - leah@vuxu.org
-  licenses:
-    - Vim
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: vim
-  binname: gvim-huge
-  visiblename: gvim-huge
-  version: 9.2.1031
-  origversion: 9.2.1031_1
-  status: outdated
-  summary: Vim editor (vi clone) - GTK+ GUI - Huge (all features enabled)
-  maintainers:
-    - leah@vuxu.org
-  licenses:
-    - Vim
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: vim
   binname: vim
   visiblename: vim
   version: 9.2.1031
@@ -2528,87 +2449,62 @@
     - leah@vuxu.org
   licenses:
     - Vim
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: vim
+  binname: gvim
+  visiblename: gvim
+  version: 9.2.1031
+  origversion: 9.2.1031_1
+  status: outdated
+  summary: Vim editor (vi clone) - GTK+ GUI
+  maintainers:
+    - leah@vuxu.org
+  licenses:
+    - Vim
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: vim
+  binname: gvim-huge
+  visiblename: gvim-huge
+  version: 9.2.1031
+  origversion: 9.2.1031_1
+  status: outdated
+  summary: Vim editor (vi clone) - GTK+ GUI - Huge (all features enabled)
+  maintainers:
+    - leah@vuxu.org
+  licenses:
+    - Vim
 - repo: vylen
   subrepo: core
   srcname: vim
   visiblename: vim
   version: 9.2.1067
   origversion: 9.2.1067-1
-  status: newest
+  status: outdated
   summary: Vi Improved, a highly configurable, improved version of the vi text editor
   maintainers:
     - wonkru-dev@proton.me
-- repo: amazon_2
+- repo: aix_osp
   srcname: vim
   visiblename: vim
-  version: 8.2.4314
-  origversion: 2:8.2.4314-1.amzn2.0.1
+  version: 7.3.831
+  origversion: 7.3.831-1
   status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
   vulnerable: true
-- repo: amazon_2
+- repo: aix_osp
   srcname: vim
   visiblename: vim
-  version: 8.2.4428
-  origversion: 2:8.2.4428-1.amzn2.0.3
+  version: 7.4.355
+  origversion: 7.4.355-1
   status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2566
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2569
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2572
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2576
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
+- repo: aix_osp
+  srcname: vim
+  visiblename: vim
+  version: 7.4.460
+  origversion: 7.4.460-1
+  status: outdated
   vulnerable: true
 - repo: npackd_stable
   srcname: org.vim.Vim
@@ -2674,7 +2570,7 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2783
+  version: 8.2.2607
   origversion: null
   status: legacy
   licenses:
@@ -2686,7 +2582,7 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2786
+  version: 8.2.2608
   origversion: null
   status: legacy
   licenses:
@@ -2698,311 +2594,7 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2799
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2800
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2803
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2808
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2811
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2814
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2817
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2818
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2820
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2822
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2825
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2831
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2832
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2836
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2840
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2844
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2845
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2846
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: vim
-  visiblename: vim
-  version: 8.2.4621
-  origversion: 2:8.2.4621-1.1.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2847
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: vim
-  visiblename: vim
-  version: 8.2.4877
-  origversion: 2:8.2.4877-1.1.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: vim
-  visiblename: vim
-  version: 8.2.5172
-  origversion: 2:8.2.5172-1.1.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: vim-huge
-  binname: vim-huge
-  visiblename: Vim huge
-  version: 7.4.827
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2850
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1006
-  origversion: 2:9.0.1006-1.1.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2619
+  version: 8.2.2610
   origversion: null
   status: legacy
   licenses:
@@ -3014,7 +2606,7 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2856
+  version: 8.2.2619
   origversion: null
   status: legacy
   licenses:
@@ -3038,70 +2630,7 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2860
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1160
-  origversion: 2:9.0.1160-1.1.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1367
-  origversion: 2:9.0.1367-1.73.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1403
-  origversion: 2:9.0.1403-1.76.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
   version: 8.2.2625
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2863
   origversion: null
   status: legacy
   licenses:
@@ -3182,34 +2711,10 @@
     - Text
   vulnerable: true
 - repo: npackd_stable
-  srcname: vim-huge
-  binname: vim-huge
-  visiblename: Vim huge
-  version: 7.4.560
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
   version: 8.2.2661
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2668
   origversion: null
   status: legacy
   licenses:
@@ -3233,7 +2738,7 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2677
+  version: 8.2.2668
   origversion: null
   status: legacy
   licenses:
@@ -3245,7 +2750,43 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2871
+  version: 8.2.2677
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: vim-huge
+  binname: vim-huge
+  visiblename: Vim huge
+  version: 8.0.3
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2803
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2808
   origversion: null
   status: legacy
   licenses:
@@ -3258,6 +2799,18 @@
   binname: org.vim.Vim
   visiblename: Vim
   version: 8.2.2679
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2811
   origversion: null
   status: legacy
   licenses:
@@ -3329,18 +2882,6 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2873
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
   version: 8.2.2735
   origversion: null
   status: legacy
@@ -3349,11 +2890,26 @@
   categories:
     - Text
   vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: vim
+  visiblename: vim
+  version: 8.0.1763
+  origversion: 2:8.0.1763-23.el8_10
+  status: outdated
+  summary: The VIM editor
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: npackd_stable
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2875
+  version: 8.2.2814
   origversion: null
   status: legacy
   licenses:
@@ -3365,7 +2921,58 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
+  version: 8.2.2772
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: vim
+  visiblename: vim
+  version: 8.0.1763
+  origversion: 2:8.0.1763-24.el8_10
+  status: outdated
+  summary: The VIM editor
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
   version: 8.2.2738
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2817
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2818
   origversion: null
   status: legacy
   licenses:
@@ -3397,17 +3004,6 @@
   categories:
     - Text
   vulnerable: true
-- repo: archpower_powerpc
-  srcname: vim
-  binname: vim
-  visiblename: vim
-  version: 9.2.0735
-  origversion: 9.2.0735-1
-  status: outdated
-  summary: Vi Improved, a highly configurable, improved version of the vi text editor
-  licenses:
-    - custom:vim
-  vulnerable: true
 - repo: npackd_stable
   srcname: org.vim.Vim
   binname: org.vim.Vim
@@ -3431,20 +3027,6 @@
     - GPLv2
   categories:
     - Text
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: vim
-  binname: gvim
-  visiblename: gvim
-  version: 9.0.0999
-  origversion: 9.0.0999-r0
-  status: outdated
-  summary: advanced text editor, with GUI
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Vim
   vulnerable: true
 - repo: npackd_stable
   srcname: org.vim.Vim
@@ -3470,49 +3052,6 @@
   categories:
     - Text
   vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.3.762
-  origversion: 7.3.762-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.3.831
-  origversion: 7.3.831-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.4.052
-  origversion: 7.4.052-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.4.355
-  origversion: 7.4.355-1
-  status: legacy
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: vim
-  visiblename: vim
-  version: 8.0.1763
-  origversion: 2:8.0.1763-22.el8_10
-  status: outdated
-  summary: The VIM editor
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: npackd_stable
   srcname: org.vim.Vim
   binname: org.vim.Vim
@@ -3525,38 +3064,23 @@
   categories:
     - Text
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: vim
-  visiblename: vim
-  version: 8.0.1763
-  origversion: 2:8.0.1763-23.el8_10
-  status: outdated
-  summary: The VIM editor
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: vim
-  visiblename: vim
-  version: 8.2.4857
-  origversion: 2:8.2.4857-1.amzn2.0.1
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2820
+  origversion: null
   status: legacy
-  summary: The VIM editor
   licenses:
-    - Vim and MIT
+    - GPLv2
   categories:
-    - Unspecified
+    - Text
   vulnerable: true
 - repo: npackd_stable
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2772
+  version: 8.2.2822
   origversion: null
   status: legacy
   licenses:
@@ -3576,6 +3100,57 @@
   categories:
     - Text
   vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2825
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2840
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2783
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: vim
+  visiblename: vim
+  version: 8.0.1763
+  origversion: 2:8.0.1763-27.el8_10
+  status: outdated
+  summary: The VIM editor
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: almalinux_8
   subrepo: BaseOS
   srcname: vim
@@ -3590,6 +3165,148 @@
     - Vim and MIT
   categories:
     - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: vim
+  visiblename: vim
+  version: 8.2.4006
+  origversion: 2:8.2.4006-1.2.amzn1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2786
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: vim
+  visiblename: vim
+  version: 8.0.1763
+  origversion: 2:8.0.1763-31.el8_10.7
+  status: outdated
+  summary: The VIM editor
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2799
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2831
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2832
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2836
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: vim
+  visiblename: vim
+  version: 8.0.1763
+  origversion: 2:8.0.1763-31.el8_10
+  status: outdated
+  summary: The VIM editor
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2800
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: vim
+  visiblename: vim
+  version: 8.0.1763
+  origversion: 2:8.0.1763-22.el8_10.3
+  status: outdated
+  summary: The VIM editor
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: vim-huge
+  binname: vim-huge
+  visiblename: Vim huge
+  version: 8.0.604
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
   vulnerable: true
 - repo: almalinux_8
   subrepo: BaseOS
@@ -3606,46 +3323,16 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: npackd_stable
-  srcname: vim-huge
-  binname: vim-huge
-  visiblename: Vim huge
-  version: 7.4.711
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: aix_osp
+- repo: almalinux_8
+  subrepo: BaseOS
   srcname: vim
   visiblename: vim
-  version: 7.3.081
-  origversion: 7.3.081-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.3.1242
-  origversion: 7.3.1242-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.3.1314
-  origversion: 7.3.1314-1
-  status: legacy
-  vulnerable: true
-- repo: amazon_2
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1006
-  origversion: 2:9.0.1006-1.amzn2.0.1
-  status: legacy
+  version: 8.0.1763
+  origversion: 2:8.0.1763-22.el8_10
+  status: outdated
   summary: The VIM editor
+  maintainers:
+    - packager@almalinux.org
   licenses:
     - Vim and MIT
   categories:
@@ -3666,20 +3353,392 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
+- repo: amazon_1
+  subrepo: updates
   srcname: vim
   visiblename: vim
-  version: 8.0.1763
-  origversion: 2:8.0.1763-22.el8_10.3
-  status: outdated
+  version: 8.2.4314
+  origversion: 2:8.2.4314-1.1.amzn1
+  status: legacy
   summary: The VIM editor
-  maintainers:
-    - packager@almalinux.org
   licenses:
     - Vim and MIT
   categories:
     - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: vim
+  visiblename: vim
+  version: 8.2.4621
+  origversion: 2:8.2.4621-1.1.amzn1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: vim
+  visiblename: vim
+  version: 8.2.4877
+  origversion: 2:8.2.4877-1.1.amzn1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2844
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2845
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2846
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2847
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: vim
+  visiblename: vim
+  version: 8.2.5172
+  origversion: 2:8.2.5172-1.1.amzn1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1006
+  origversion: 2:9.0.1006-1.1.amzn1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1160
+  origversion: 2:9.0.1160-1.1.amzn1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1367
+  origversion: 2:9.0.1367-1.73.amzn1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2850
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1403
+  origversion: 2:9.0.1403-1.76.amzn1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2856
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2860
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2863
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: vim-huge
+  binname: vim-huge
+  visiblename: Vim huge
+  version: 8.0.753
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2871
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2873
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2875
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2876
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2878
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2879
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2885
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: vim-huge
+  binname: vim-huge
+  visiblename: Vim huge
+  version: 8.0.1123
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: vim-huge
+  binname: vim-huge
+  visiblename: Vim huge
+  version: 8.0.1203
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2886
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2890
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2891
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2897
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2907
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: aix_osp
+  srcname: vim
+  visiblename: vim
+  version: 7.3.1314
+  origversion: 7.3.1314-1
+  status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: vim
@@ -3702,45 +3761,12 @@
   origversion: 7.3.353-1
   status: legacy
   vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: vim
-  binname: vim-doc
-  visiblename: vim-doc
-  version: 9.0.0999
-  origversion: 9.0.0999-r0
-  status: outdated
-  summary: Improved vi-style text editor (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: vim
-  binname: vim
-  visiblename: vim
-  version: 9.0.0999
-  origversion: 9.0.0999-r0
-  status: outdated
-  summary: Improved vi-style text editor
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: amazon_2
+- repo: aix_osp
   srcname: vim
   visiblename: vim
-  version: 9.0.1160
-  origversion: 2:9.0.1160-1.amzn2.0.1
+  version: 7.3.475
+  origversion: 7.3.475-1
   status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: aix_osp
   srcname: vim
@@ -3749,53 +3775,11 @@
   origversion: 7.3.600-1
   status: legacy
   vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: vim
-  binname: vim-tutor
-  visiblename: vim-tutor
-  version: 9.0.0999
-  origversion: 9.0.0999-r0
-  status: outdated
-  summary: vim tutor and tutor files
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: vim
-  binname: vimdiff
-  visiblename: vimdiff
-  version: 9.0.0999
-  origversion: 9.0.0999-r0
-  status: outdated
-  summary: view file diffs in vim
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Vim
-  vulnerable: true
 - repo: aix_osp
   srcname: vim
   visiblename: vim
-  version: 7.2.411
-  origversion: 7.2.411-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.2.436
-  origversion: 7.2.436-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.2.444
-  origversion: 7.2.444-1
+  version: 7.3.661
+  origversion: 7.3.661-1
   status: legacy
   vulnerable: true
 - repo: alpine_3_17
@@ -3811,27 +3795,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - Vim
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.2.444
-  origversion: 7.2.444-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.2.446
-  origversion: 7.2.446-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: vim
-  visiblename: vim
-  version: 7.3.069
-  origversion: 7.3.069-1
-  status: legacy
   vulnerable: true
 - repo: adelie_current
   subrepo: system
@@ -3924,65 +3887,75 @@
   origversion: 7.2.356-1
   status: legacy
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
+- repo: aix_osp
   srcname: vim
   visiblename: vim
-  version: 8.0.1763
-  origversion: 2:8.0.1763-24.el8_10
-  status: outdated
-  summary: The VIM editor
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
+  version: 7.2.368
+  origversion: 7.2.368-1
+  status: legacy
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
+- repo: aix_osp
   srcname: vim
   visiblename: vim
-  version: 8.0.1763
-  origversion: 2:8.0.1763-27.el8_10
-  status: outdated
-  summary: The VIM editor
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
+  version: 7.2.411
+  origversion: 7.2.411-1
+  status: legacy
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
+- repo: aix_osp
   srcname: vim
   visiblename: vim
-  version: 8.0.1763
-  origversion: 2:8.0.1763-31.el8_10.7
-  status: outdated
-  summary: The VIM editor
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
+  version: 7.2.436
+  origversion: 7.2.436-1
+  status: legacy
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
+- repo: aix_osp
   srcname: vim
   visiblename: vim
-  version: 8.0.1763
-  origversion: 2:8.0.1763-31.el8_10
-  status: outdated
-  summary: The VIM editor
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
+  version: 7.2.444
+  origversion: 7.2.444-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: vim
+  visiblename: vim
+  version: 7.2.444
+  origversion: 7.2.444-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: vim
+  visiblename: vim
+  version: 7.2.446
+  origversion: 7.2.446-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: vim
+  visiblename: vim
+  version: 7.3.069
+  origversion: 7.3.069-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: vim
+  visiblename: vim
+  version: 7.3.081
+  origversion: 7.3.081-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: vim
+  visiblename: vim
+  version: 7.3.099
+  origversion: 7.3.099-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: vim
+  visiblename: vim
+  version: 7.3.1242
+  origversion: 7.3.1242-1
+  status: legacy
   vulnerable: true
 - repo: almalinux_9
   subrepo: BaseOS
@@ -4122,6 +4095,76 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: vim
+  binname: vim-tutor
+  visiblename: vim-tutor
+  version: 9.0.0999
+  origversion: 9.0.0999-r0
+  status: outdated
+  summary: vim tutor and tutor files
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: vim
+  binname: vimdiff
+  visiblename: vimdiff
+  version: 9.0.0999
+  origversion: 9.0.0999-r0
+  status: outdated
+  summary: view file diffs in vim
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: vim
+  binname: gvim
+  visiblename: gvim
+  version: 9.0.0999
+  origversion: 9.0.0999-r0
+  status: outdated
+  summary: advanced text editor, with GUI
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: vim
+  binname: vim-doc
+  visiblename: vim-doc
+  version: 9.0.0999
+  origversion: 9.0.0999-r0
+  status: outdated
+  summary: Improved vi-style text editor (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: vim
+  binname: vim
+  visiblename: vim
+  version: 9.0.0999
+  origversion: 9.0.0999-r0
+  status: outdated
+  summary: Improved vi-style text editor
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Vim
+  vulnerable: true
 - repo: alpine_3_18
   subrepo: main
   srcname: vim
@@ -4135,18 +4178,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - Vim
-  vulnerable: true
-- repo: amazon_2
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1314
-  origversion: 2:9.0.1314-1.amzn2.0.1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: alpine_3_18
   subrepo: main
@@ -4316,30 +4347,6 @@
   licenses:
     - Vim
   vulnerable: true
-- repo: amazon_2
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1367
-  origversion: 2:9.0.1367-1.amzn2.0.1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1403
-  origversion: 2:9.0.1403-1.amzn2.0.1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: alpine_3_19
   subrepo: main
   srcname: vim
@@ -4494,30 +4501,6 @@
   licenses:
     - Vim
   vulnerable: true
-- repo: amazon_2
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1403
-  origversion: 2:9.0.1403-1.amzn2.0.2
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1592
-  origversion: 2:9.0.1592-1.amzn2.0.1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim AND LGPL-2.1-or-later AND MIT AND GPL-1.0-only AND (GPL-2.0-only OR Vim) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND OPUBL-1.0
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: alpine_3_21
   subrepo: main
   srcname: vim
@@ -4545,163 +4528,13 @@
     - ncopa@alpinelinux.org
   licenses:
     - Vim
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: vim
-  binname: vimdiff
-  visiblename: vimdiff
-  version: 9.1.1105
-  origversion: 9.1.1105-r0
-  status: outdated
-  summary: view file diffs in vim
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: vim
-  binname: xxd
-  visiblename: xxd
-  version: 9.1.1105
-  origversion: 9.1.1105-r0
-  status: outdated
-  summary: tool to make (or reverse) a hex dump
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: vim
-  binname: gvim
-  visiblename: gvim
-  version: 9.1.1566
-  origversion: 9.1.1566-r0
-  status: outdated
-  summary: advanced text editor, with GUI
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: vim
-  binname: vim
-  visiblename: vim
-  version: 9.1.1566
-  origversion: 9.1.1566-r0
-  status: outdated
-  summary: Improved vi-style text editor
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: vim
-  binname: vim-common
-  visiblename: vim-common
-  version: 9.1.1566
-  origversion: 9.1.1566-r0
-  status: outdated
-  summary: Improved vi-style text editor
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: vim
-  binname: vim-doc
-  visiblename: vim-doc
-  version: 9.1.1566
-  origversion: 9.1.1566-r0
-  status: outdated
-  summary: Improved vi-style text editor (documentation)
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: vim
-  binname: vim-tutor
-  visiblename: vim-tutor
-  version: 9.1.1566
-  origversion: 9.1.1566-r0
-  status: outdated
-  summary: vim tutor and tutor files
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: vim
-  binname: vimdiff
-  visiblename: vimdiff
-  version: 9.1.1566
-  origversion: 9.1.1566-r0
-  status: outdated
-  summary: view file diffs in vim
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: vim
-  binname: xxd
-  visiblename: xxd
-  version: 9.1.1566
-  origversion: 9.1.1566-r0
-  status: outdated
-  summary: tool to make (or reverse) a hex dump
-  maintainers:
-    - cielesti@protonmail.com
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: amazon_2
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1882
-  origversion: 2:9.0.1882-1.amzn2.0.1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim AND LGPL-2.1-or-later AND MIT AND GPL-1.0-only AND (GPL-2.0-only OR Vim) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND OPUBL-1.0
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: amazon_1
   subrepo: updates
   srcname: vim
   visiblename: vim
-  version: 8.2.4314
-  origversion: 2:8.2.4314-1.1.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1882
-  origversion: 2:9.0.1882-1.amzn2.0.2
+  version: 9.0.1587
+  origversion: 2:9.0.1587-1.79.amzn1
   status: legacy
   summary: The VIM editor
   licenses:
@@ -4709,11 +4542,138 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: amazon_2
+- repo: alpine_3_21
+  subrepo: main
+  srcname: vim
+  binname: vimdiff
+  visiblename: vimdiff
+  version: 9.1.1105
+  origversion: 9.1.1105-r0
+  status: outdated
+  summary: view file diffs in vim
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: vim
+  binname: xxd
+  visiblename: xxd
+  version: 9.1.1105
+  origversion: 9.1.1105-r0
+  status: outdated
+  summary: tool to make (or reverse) a hex dump
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: vim
+  binname: gvim
+  visiblename: gvim
+  version: 9.1.1566
+  origversion: 9.1.1566-r0
+  status: outdated
+  summary: advanced text editor, with GUI
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: vim
+  binname: vim
+  visiblename: vim
+  version: 9.1.1566
+  origversion: 9.1.1566-r0
+  status: outdated
+  summary: Improved vi-style text editor
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: vim
+  binname: vim-common
+  visiblename: vim-common
+  version: 9.1.1566
+  origversion: 9.1.1566-r0
+  status: outdated
+  summary: Improved vi-style text editor
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: vim
+  binname: vim-doc
+  visiblename: vim-doc
+  version: 9.1.1566
+  origversion: 9.1.1566-r0
+  status: outdated
+  summary: Improved vi-style text editor (documentation)
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: vim
+  binname: vim-tutor
+  visiblename: vim-tutor
+  version: 9.1.1566
+  origversion: 9.1.1566-r0
+  status: outdated
+  summary: vim tutor and tutor files
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: vim
+  binname: vimdiff
+  visiblename: vimdiff
+  version: 9.1.1566
+  origversion: 9.1.1566-r0
+  status: outdated
+  summary: view file diffs in vim
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: vim
+  binname: xxd
+  visiblename: xxd
+  version: 9.1.1566
+  origversion: 9.1.1566-r0
+  status: outdated
+  summary: tool to make (or reverse) a hex dump
+  maintainers:
+    - cielesti@protonmail.com
+  licenses:
+    - Vim
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
   srcname: vim
   visiblename: vim
-  version: 9.0.1882
-  origversion: 2:9.0.1882-1.amzn2.0.3
+  version: 9.0.1712
+  origversion: 2:9.0.1712-1.82.amzn1
   status: legacy
   summary: The VIM editor
   licenses:
@@ -4777,45 +4737,6 @@
   subrepo: updates
   srcname: vim
   visiblename: vim
-  version: 8.2.4006
-  origversion: 2:8.2.4006-1.2.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1587
-  origversion: 2:9.0.1587-1.79.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim AND LGPL-2.1-or-later AND MIT AND GPL-1.0-only AND (GPL-2.0-only OR Vim) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND OPUBL-1.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: vim
-  visiblename: vim
-  version: 9.0.1712
-  origversion: 2:9.0.1712-1.82.amzn1
-  status: legacy
-  summary: The VIM editor
-  licenses:
-    - Vim AND LGPL-2.1-or-later AND MIT AND GPL-1.0-only AND (GPL-2.0-only OR Vim) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND OPUBL-1.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: vim
-  visiblename: vim
   version: 9.0.1712
   origversion: 2:9.0.1712-1.83.amzn1
   status: legacy
@@ -4838,6 +4759,18 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2914
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
 - repo: amazon_1
   subrepo: updates
   srcname: vim
@@ -4848,6 +4781,19 @@
   summary: The VIM editor
   licenses:
     - Vim AND LGPL-2.1-or-later AND MIT AND GPL-1.0-only AND (GPL-2.0-only OR Vim) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND OPUBL-1.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: vim
+  visiblename: vim
+  version: 9.0.475
+  origversion: 2:9.0.475-1.1.amzn1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
   categories:
     - Unspecified
   vulnerable: true
@@ -4921,6 +4867,174 @@
   summary: The VIM editor
   licenses:
     - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 8.2.4314
+  origversion: 2:8.2.4314-1.amzn2.0.1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 8.2.4428
+  origversion: 2:8.2.4428-1.amzn2.0.3
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 8.2.4857
+  origversion: 2:8.2.4857-1.amzn2.0.1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 8.2.5172
+  origversion: 2:8.2.5172-1.amzn2.0.1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1006
+  origversion: 2:9.0.1006-1.amzn2.0.1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1160
+  origversion: 2:9.0.1160-1.amzn2.0.1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1314
+  origversion: 2:9.0.1314-1.amzn2.0.1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1367
+  origversion: 2:9.0.1367-1.amzn2.0.1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1403
+  origversion: 2:9.0.1403-1.amzn2.0.1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1403
+  origversion: 2:9.0.1403-1.amzn2.0.2
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1592
+  origversion: 2:9.0.1592-1.amzn2.0.1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim AND LGPL-2.1-or-later AND MIT AND GPL-1.0-only AND (GPL-2.0-only OR Vim) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND OPUBL-1.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1882
+  origversion: 2:9.0.1882-1.amzn2.0.1
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim AND LGPL-2.1-or-later AND MIT AND GPL-1.0-only AND (GPL-2.0-only OR Vim) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND OPUBL-1.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1882
+  origversion: 2:9.0.1882-1.amzn2.0.2
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim AND LGPL-2.1-or-later AND MIT AND GPL-1.0-only AND (GPL-2.0-only OR Vim) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND OPUBL-1.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: vim
+  visiblename: vim
+  version: 9.0.1882
+  origversion: 2:9.0.1882-1.amzn2.0.3
+  status: legacy
+  summary: The VIM editor
+  licenses:
+    - Vim AND LGPL-2.1-or-later AND MIT AND GPL-1.0-only AND (GPL-2.0-only OR Vim) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND OPUBL-1.0
   categories:
     - Unspecified
   vulnerable: true
@@ -5017,6 +5131,21 @@
   summary: The VIM editor
   licenses:
     - Vim AND LGPL-2.1-or-later AND MIT AND GPL-1.0-only AND (GPL-2.0-only OR Vim) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND OPUBL-1.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: centos_8
+  subrepo: BaseOS
+  srcname: vim
+  visiblename: vim
+  version: 8.0.1763
+  origversion: 2:8.0.1763-16.el8
+  status: outdated
+  summary: The VIM editor
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - Vim and MIT
   categories:
     - Unspecified
   vulnerable: true
@@ -5232,6 +5361,18 @@
     - team+vim@tracker.debian.org
     - jamessan@debian.org
   vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2572
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
 - repo: archpower_powerpc
   srcname: vim
   binname: gvim
@@ -5240,6 +5381,17 @@
   origversion: 9.2.0735-1
   status: outdated
   summary: Vi Improved, a highly configurable, improved version of the vi text editor (with advanced features, such as a GUI)
+  licenses:
+    - custom:vim
+  vulnerable: true
+- repo: archpower_powerpc
+  srcname: vim
+  binname: vim
+  visiblename: vim
+  version: 9.2.0735
+  origversion: 9.2.0735-1
+  status: outdated
+  summary: Vi Improved, a highly configurable, improved version of the vi text editor
   licenses:
     - custom:vim
   vulnerable: true
@@ -5287,20 +5439,17 @@
   licenses:
     - custom:vim
   vulnerable: true
-- repo: centos_stream_8
-  subrepo: BaseOS
+- repo: chimera
+  subrepo: main
   srcname: vim
-  visiblename: vim
-  version: 8.0.1763
-  origversion: 2:8.0.1763-16.el8_5.7
+  binname: vim-doc
+  visiblename: vim-doc
+  version: 9.1.0880
+  origversion: 9.1.0880-r3
   status: outdated
-  summary: The VIM editor
-  maintainers:
-    - bugs@centos.org
+  summary: Vi-style text editor (documentation)
   licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
+    - Vim
   vulnerable: true
 - repo: centos_6
   subrepo: os
@@ -5353,21 +5502,6 @@
     - Vim
   categories:
     - Applications/Editors
-  vulnerable: true
-- repo: centos_8
-  subrepo: BaseOS
-  srcname: vim
-  visiblename: vim
-  version: 8.0.1763
-  origversion: 2:8.0.1763-16.el8
-  status: outdated
-  summary: The VIM editor
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: centos_stream_8
   subrepo: BaseOS
@@ -5450,6 +5584,21 @@
   visiblename: vim
   version: 8.0.1763
   origversion: 2:8.0.1763-16.el8_5.4
+  status: outdated
+  summary: The VIM editor
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: centos_stream_8
+  subrepo: BaseOS
+  srcname: vim
+  visiblename: vim
+  version: 8.0.1763
+  origversion: 2:8.0.1763-16.el8_5.7
   status: outdated
   summary: The VIM editor
   maintainers:
@@ -5565,21 +5714,6 @@
     - Vim and MIT
   categories:
     - Unspecified
-  vulnerable: true
-- repo: cygwin
-  srcname: vim
-  binname: vim-minimal
-  visiblename: vim-minimal
-  version: 9.1.1952
-  origversion: 9.1.1952-1
-  status: outdated
-  summary: Vi IMproved - enhanced vi editor
-  maintainers:
-    - marco.atzeri@cygwin
-  licenses:
-    - Vim
-  categories:
-    - Base
   vulnerable: true
 - repo: centos_stream_9
   subrepo: BaseOS
@@ -5729,6 +5863,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: vim
+  visiblename: vim
+  version: 8.0.1763
+  origversion: 2:8.0.1763-16.el8_5.4
+  status: outdated
+  summary: The VIM editor
+  licenses:
+    - Vim and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: chimera
   subrepo: main
   srcname: vim
@@ -5738,18 +5885,6 @@
   origversion: 9.1.0880-r3
   status: outdated
   summary: Vi-style text editor
-  licenses:
-    - Vim
-  vulnerable: true
-- repo: chimera
-  subrepo: main
-  srcname: vim
-  binname: vim-doc
-  visiblename: vim-doc
-  version: 9.1.0880
-  origversion: 9.1.0880-r3
-  status: outdated
-  summary: Vi-style text editor (documentation)
   licenses:
     - Vim
   vulnerable: true
@@ -5837,21 +5972,6 @@
   status: outdated
   summary: 64bit build of vim, compiled with all features enabled. 'Right click > edit with vim' support included. Vim and gVim launchers are placed on the PATH
   vulnerable: true
-- repo: cygwin
-  srcname: vim
-  binname: xxd
-  visiblename: xxd
-  version: 9.1.1952
-  origversion: 9.1.1952-1
-  status: outdated
-  summary: Vi IMproved - enhanced vi editor
-  maintainers:
-    - marco.atzeri@cygwin
-  licenses:
-    - Vim
-  categories:
-    - Editors
-  vulnerable: true
 - repo: chocolatey
   binname: vim-x64.install
   visiblename: '[Deprecated] Vim x64 (Install)'
@@ -5859,21 +5979,6 @@
   origversion: null
   status: outdated
   summary: 64bit build of vim, compiled with all features enabled. 'Right click > edit with vim' support included. Vim and gVim launchers are placed on the PATH
-  vulnerable: true
-- repo: cygwin
-  srcname: vim
-  binname: vim-doc
-  visiblename: vim-doc
-  version: 9.1.1825
-  origversion: 9.1.1825-1
-  status: legacy
-  summary: Vi IMproved - enhanced vi editor
-  maintainers:
-    - marco.atzeri@cygwin
-  licenses:
-    - Vim
-  categories:
-    - Editors
   vulnerable: true
 - repo: chocolatey
   binname: vim-x64.portable
@@ -5890,6 +5995,18 @@
   origversion: null
   status: outdated
   summary: 32bit build of vim, compiled with all features enabled. 'Right click > edit with vim' support included. Vim and gVim launchers are placed on the PATH
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2576
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
   vulnerable: true
 - repo: chocolatey
   binname: vim-x86.install
@@ -5988,6 +6105,21 @@
     - Vim
   categories:
     - Debug
+  vulnerable: true
+- repo: cygwin
+  srcname: vim
+  binname: vim-doc
+  visiblename: vim-doc
+  version: 9.1.1825
+  origversion: 9.1.1825-1
+  status: legacy
+  summary: Vi IMproved - enhanced vi editor
+  maintainers:
+    - marco.atzeri@cygwin
+  licenses:
+    - Vim
+  categories:
+    - Editors
   vulnerable: true
 - repo: cygwin
   srcname: vim
@@ -6094,17 +6226,35 @@
   categories:
     - Editors
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2607
-  origversion: null
-  status: legacy
+- repo: cygwin
+  srcname: vim
+  binname: vim-minimal
+  visiblename: vim-minimal
+  version: 9.1.1952
+  origversion: 9.1.1952-1
+  status: outdated
+  summary: Vi IMproved - enhanced vi editor
+  maintainers:
+    - marco.atzeri@cygwin
   licenses:
-    - GPLv2
+    - Vim
   categories:
-    - Text
+    - Base
+  vulnerable: true
+- repo: cygwin
+  srcname: vim
+  binname: xxd
+  visiblename: xxd
+  version: 9.1.1952
+  origversion: 9.1.1952-1
+  status: outdated
+  summary: Vi IMproved - enhanced vi editor
+  maintainers:
+    - marco.atzeri@cygwin
+  licenses:
+    - Vim
+  categories:
+    - Editors
   vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
@@ -6348,6 +6498,14 @@
   categories:
     - editors
   vulnerable: true
+- repo: distri
+  srcname: vim
+  binname: vim
+  visiblename: vim
+  version: "8.2"
+  origversion: 8.2-5
+  status: outdated
+  vulnerable: true
 - repo: eurolinux_8
   subrepo: baseos
   srcname: vim
@@ -6406,19 +6564,6 @@
   visiblename: vim
   version: 8.0.1763
   origversion: 2:8.0.1763-16.el8_5.13
-  status: outdated
-  summary: The VIM editor
-  licenses:
-    - Vim and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: vim
-  visiblename: vim
-  version: 8.0.1763
-  origversion: 2:8.0.1763-16.el8_5.4
   status: outdated
   summary: The VIM editor
   licenses:
@@ -6535,6 +6680,20 @@
     - Vim and MIT
   categories:
     - Unspecified
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: vim-full
+  visiblename: vim-full
+  version: 9.1.1566
+  origversion: null
+  status: outdated
+  summary: Most popular clone of the VI editor
+  maintainers:
+    - janne@hess.ooo
+    - eduardo@eduardoquiros.com
+    - philip.taron@gmail.com
+  licenses:
+    - Vim
   vulnerable: true
 - repo: fedora_39
   subrepo: release
@@ -6654,22 +6813,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: liguros_stable
-  srcname: app-editors/vim
-  visiblename: app-editors/vim
-  version: 9.1.1652
-  origversion: null
-  status: outdated
-  summary: Vim, an improved vi-style text editor
-  maintainers:
-    - xxc3ncoredxx@gmail.com
-    - vim@gentoo.org
-    - proxy-maint@gentoo.org
-  licenses:
-    - vim
-  categories:
-    - app-editors
-  vulnerable: true
 - repo: fedora_41
   subrepo: updates
   srcname: vim
@@ -6691,18 +6834,6 @@
     - Vim AND LGPL-2.1-or-later AND MIT AND GPL-1.0-only AND (GPL-2.0-only OR Vim) AND Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND OPUBL-1.0 AND Apache-2.0 WITH Swift-exception
   categories:
     - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2562
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
   vulnerable: true
 - repo: fedora_42
   subrepo: release
@@ -6748,18 +6879,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2608
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
 - repo: fedora_43
   subrepo: release
   srcname: vim
@@ -6804,10 +6923,10 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: nix_stable_25_05
+- repo: nix_stable_25_11
   srcname: vim
   visiblename: vim
-  version: 9.1.1566
+  version: 9.2.0340
   origversion: null
   status: outdated
   summary: Most popular clone of the VI editor
@@ -6850,6 +6969,26 @@
   categories:
     - app-editors
   vulnerable: true
+- repo: mageia_9
+  subrepo: core/release
+  srcname: vim
+  binnames:
+    - vim-common
+    - vim-minimal
+    - vim-enhanced
+    - vim-X11
+    - vim-debuginfo
+    - vim-debugsource
+  visiblename: vim
+  version: 9.0.1572
+  origversion: 9.0.1572-1.mga9
+  status: legacy
+  summary: VIsual editor iMproved
+  licenses:
+    - Charityware
+  categories:
+    - Editors
+  vulnerable: true
 - repo: gentoo
   srcname: app-editors/vim
   visiblename: app-editors/vim
@@ -6874,15 +7013,6 @@
   origversion: null
   status: outdated
   summary: Hexdump utility from vim
-  vulnerable: true
-- repo: gnuguix
-  srcname: vim
-  binname: vim
-  visiblename: vim
-  version: 9.2.0333
-  origversion: null
-  status: outdated
-  summary: Text editor based on vi
   vulnerable: true
 - repo: gnuguix
   srcname: vim-full
@@ -6921,6 +7051,15 @@
   status: outdated
   categories:
     - app-editors
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: vim
+  binname: vim
+  visiblename: vim
+  version: "7.4"
+  origversion: null
+  status: legacy
   vulnerable: true
 - repo: hpux_11_31
   subrepo: hppa_32
@@ -7006,6 +7145,22 @@
     - dev-util
   vulnerable: true
 - repo: liguros_stable
+  srcname: app-editors/vim
+  visiblename: app-editors/vim
+  version: 9.1.1652
+  origversion: null
+  status: outdated
+  summary: Vim, an improved vi-style text editor
+  maintainers:
+    - xxc3ncoredxx@gmail.com
+    - vim@gentoo.org
+    - proxy-maint@gentoo.org
+  licenses:
+    - vim
+  categories:
+    - app-editors
+  vulnerable: true
+- repo: liguros_stable
   srcname: app-editors/vim-core
   visiblename: app-editors/vim-core
   version: 9.1.1652
@@ -7233,7 +7388,7 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2560
+  version: 8.2.2566
   origversion: null
   status: legacy
   licenses:
@@ -7317,26 +7472,6 @@
   visiblename: vim
   version: 9.2.538
   origversion: 9.2.538-1.mga10
-  status: legacy
-  summary: VIsual editor iMproved
-  licenses:
-    - Charityware
-  categories:
-    - Editors
-  vulnerable: true
-- repo: mageia_9
-  subrepo: core/release
-  srcname: vim
-  binnames:
-    - vim-common
-    - vim-minimal
-    - vim-enhanced
-    - vim-X11
-    - vim-debuginfo
-    - vim-debugsource
-  visiblename: vim
-  version: 9.0.1572
-  origversion: 9.0.1572-1.mga9
   status: legacy
   summary: VIsual editor iMproved
   licenses:
@@ -7644,18 +7779,6 @@
   categories:
     - Editors
   vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2610
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
 - repo: mageia_9
   subrepo: core/updates
   srcname: vim
@@ -7816,6 +7939,18 @@
   categories:
     - Editors
   vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2562
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
 - repo: mx_23_testing
   srcname: vim
   binnames:
@@ -7864,6 +7999,18 @@
     - jamessan@debian.org
   categories:
     - editors
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2973
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
   vulnerable: true
 - repo: nix_stable_24_05
   srcname: vim
@@ -7922,8 +8069,8 @@
     - Vim
   vulnerable: true
 - repo: nix_stable_25_05
-  srcname: vim-full
-  visiblename: vim-full
+  srcname: vim
+  visiblename: vim
   version: 9.1.1566
   origversion: null
   status: outdated
@@ -7935,19 +8082,17 @@
   licenses:
     - Vim
   vulnerable: true
-- repo: nix_stable_25_11
-  srcname: vim
-  visiblename: vim
-  version: 9.2.0340
+- repo: npackd_stable
+  srcname: org.vim.Vim
+  binname: org.vim.Vim
+  visiblename: Vim
+  version: 8.2.2569
   origversion: null
-  status: outdated
-  summary: Most popular clone of the VI editor
-  maintainers:
-    - janne@hess.ooo
-    - eduardo@eduardoquiros.com
-    - philip.taron@gmail.com
+  status: legacy
   licenses:
-    - Vim
+    - GPLv2
+  categories:
+    - Text
   vulnerable: true
 - repo: nix_stable_25_11
   srcname: vim-full
@@ -8139,115 +8284,7 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2876
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2878
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2879
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2885
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2886
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2890
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2891
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2897
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2907
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2914
+  version: 8.2.2560
   origversion: null
   status: legacy
   licenses:
@@ -8304,18 +8341,6 @@
     - Text
   vulnerable: true
 - repo: npackd_stable
-  srcname: vim-huge
-  binname: vim-huge
-  visiblename: Vim huge
-  version: 7.4.1641
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
@@ -8364,10 +8389,10 @@
     - Text
   vulnerable: true
 - repo: npackd_stable
-  srcname: org.vim.Vim
-  binname: org.vim.Vim
-  visiblename: Vim
-  version: 8.2.2968
+  srcname: vim-huge
+  binname: vim-huge
+  visiblename: Vim huge
+  version: 8.0.771
   origversion: null
   status: legacy
   licenses:
@@ -8379,7 +8404,7 @@
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
-  version: 8.2.2973
+  version: 8.2.2968
   origversion: null
   status: legacy
   licenses:
@@ -8568,18 +8593,6 @@
     - Text
   vulnerable: true
 - repo: npackd_stable
-  srcname: vim-huge
-  binname: vim-huge
-  visiblename: Vim huge
-  version: 8.0.3
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
@@ -8620,6 +8633,18 @@
   binname: org.vim.Vim
   visiblename: Vim
   version: 8.2.3082
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: vim-huge
+  binname: vim-huge
+  visiblename: Vim huge
+  version: 8.0.824
   origversion: null
   status: legacy
   licenses:
@@ -8832,18 +8857,6 @@
     - Text
   vulnerable: true
 - repo: npackd_stable
-  srcname: vim-huge
-  binname: vim-huge
-  visiblename: Vim huge
-  version: 8.0.604
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
@@ -8884,6 +8897,18 @@
   binname: org.vim.Vim
   visiblename: Vim
   version: 8.2.3215
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: vim-huge
+  binname: vim-huge
+  visiblename: Vim huge
+  version: 8.0.921
   origversion: null
   status: legacy
   licenses:
@@ -9096,18 +9121,6 @@
     - Text
   vulnerable: true
 - repo: npackd_stable
-  srcname: vim-huge
-  binname: vim-huge
-  visiblename: Vim huge
-  version: 8.0.753
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
@@ -9148,6 +9161,18 @@
   binname: org.vim.Vim
   visiblename: Vim
   version: 8.2.3356
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: vim-huge
+  binname: vim-huge
+  visiblename: Vim huge
+  version: 8.0.970
   origversion: null
   status: legacy
   licenses:
@@ -9360,18 +9385,6 @@
     - Text
   vulnerable: true
 - repo: npackd_stable
-  srcname: vim-huge
-  binname: vim-huge
-  visiblename: Vim huge
-  version: 8.0.771
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
@@ -9412,6 +9425,18 @@
   binname: org.vim.Vim
   visiblename: Vim
   version: 8.2.3417
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: vim-huge
+  binname: vim-huge
+  visiblename: Vim huge
+  version: 8.0.1030
   origversion: null
   status: legacy
   licenses:
@@ -9624,18 +9649,6 @@
     - Text
   vulnerable: true
 - repo: npackd_stable
-  srcname: vim-huge
-  binname: vim-huge
-  visiblename: Vim huge
-  version: 8.0.824
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
   srcname: org.vim.Vim
   binname: org.vim.Vim
   visiblename: Vim
@@ -9676,6 +9689,18 @@
   binname: org.vim.Vim
   visiblename: Vim
   version: 8.2.3487
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Text
+  vulnerable: true
+- repo: npackd_stable
+  srcname: vim-huge
+  binname: vim-huge
+  visiblename: Vim huge
+  version: 8.0.1118
   origversion: null
   status: legacy
   licenses:
@@ -9903,7 +9928,7 @@
   srcname: vim-huge
   binname: vim-huge
   visiblename: Vim huge
-  version: 8.0.921
+  version: 7.4.560
   origversion: null
   status: legacy
   licenses:
@@ -9915,7 +9940,7 @@
   srcname: vim-huge
   binname: vim-huge
   visiblename: Vim huge
-  version: 8.0.970
+  version: 7.4.711
   origversion: null
   status: legacy
   licenses:
@@ -9927,7 +9952,7 @@
   srcname: vim-huge
   binname: vim-huge
   visiblename: Vim huge
-  version: 8.0.1030
+  version: 7.4.827
   origversion: null
   status: legacy
   licenses:
@@ -9939,31 +9964,7 @@
   srcname: vim-huge
   binname: vim-huge
   visiblename: Vim huge
-  version: 8.0.1118
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: vim-huge
-  binname: vim-huge
-  visiblename: Vim huge
-  version: 8.0.1123
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Text
-  vulnerable: true
-- repo: npackd_stable
-  srcname: vim-huge
-  binname: vim-huge
-  visiblename: Vim huge
-  version: 8.0.1203
+  version: 7.4.1641
   origversion: null
   status: legacy
   licenses:
@@ -24583,6 +24584,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/vim
+  binname: vim-fuller
+  visiblename: vim-fuller
+  version: "9.0"
+  origversion: 9.0-1
+  status: outdated
+  maintainers:
+    - markoratkaj@gmail.com
+  categories:
+    - utils
+  vulnerable: true
 - repo: openeuler_22_03_lts_sp3
   srcname: vim
   binnames:
@@ -24726,16 +24740,6 @@
   summary: Vi IMproved
   categories:
     - Development/Editors
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: vim
-  visiblename: vim
-  version: 8.2.4256
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
   vulnerable: true
 - repo: openindiana
   subrepo: hipster
@@ -24968,6 +24972,19 @@
   categories:
     - editors
   vulnerable: true
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/utils/vim
+  binname: vim-help
+  visiblename: vim-help
+  version: "9.0"
+  origversion: 9.0-1
+  status: outdated
+  maintainers:
+    - markoratkaj@gmail.com
+  categories:
+    - utils
+  vulnerable: true
 - repo: openkylin_2_0
   subrepo: nile-proposed/main
   srcname: vim
@@ -25018,16 +25035,6 @@
   categories:
     - editors
   vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: vim-gvim
-  visiblename: vim-gvim
-  version: 8.2.4256
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
 - repo: openkylin_3_0
   subrepo: huanghe/main
   srcname: vim
@@ -25076,16 +25083,6 @@
     - jamessan@debian.org
   categories:
     - editors
-  vulnerable: true
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: vim-gvim
-  visiblename: vim-gvim
-  version: 8.2.4256
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
   vulnerable: true
 - repo: openmandriva_6_0
   subrepo: main/release
@@ -25231,26 +25228,6 @@
   categories:
     - Productivity/Text/Editors
   vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: vim
-  visiblename: vim
-  version: 9.1.2072
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: vim-gvim
-  visiblename: vim-gvim
-  version: 9.1.2028
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: vim
@@ -25315,6 +25292,15 @@
     - Vim
   categories:
     - Productivity/Text/Editors
+  vulnerable: true
+- repo: ptxdist
+  srcname: vim
+  visiblename: vim
+  version: 9.1.1868
+  origversion: null
+  status: outdated
+  licenses:
+    - Vim
   vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: updates/sle
@@ -25386,32 +25372,6 @@
   srcname: feeds/packages/utils/vim
   binname: vim-full
   visiblename: vim-full
-  version: "9.0"
-  origversion: 9.0-1
-  status: outdated
-  maintainers:
-    - markoratkaj@gmail.com
-  categories:
-    - utils
-  vulnerable: true
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/vim
-  binname: vim-fuller
-  visiblename: vim-fuller
-  version: "9.0"
-  origversion: 9.0-1
-  status: outdated
-  maintainers:
-    - markoratkaj@gmail.com
-  categories:
-    - utils
-  vulnerable: true
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/utils/vim
-  binname: vim-help
-  visiblename: vim-help
   version: "9.0"
   origversion: 9.0-1
   status: outdated
@@ -25523,16 +25483,6 @@
     - fallback-mnt-openwrt@repology
   categories:
     - utils
-  vulnerable: true
-- repo: os4depot
-  binname: utility/text/edit/vim.lha
-  visiblename: vim.lha
-  version: 7.0r3
-  origversion: null
-  status: outdated
-  summary: A text editor for AmiCygnix
-  categories:
-    - utility/text/edit
   vulnerable: true
 - repo: pardus_21
   subrepo: main
@@ -25809,6 +25759,18 @@
     - jamessan@debian.org
   categories:
     - editors
+  vulnerable: true
+- repo: side
+  srcname: runtime/_base_/vim
+  visiblename: vim
+  version: 9.1.1952
+  origversion: null
+  status: outdated
+  summary: Vim an advanced text editor.
+  maintainers:
+    - uglyside@yandex.ru
+  licenses:
+    - custom
   vulnerable: true
 - repo: raspbian_oldstable
   subrepo: main
@@ -26203,18 +26165,6 @@
   categories:
     - Text Editor
   vulnerable: true
-- repo: side
-  srcname: runtime/_base_/vim
-  visiblename: vim
-  version: 9.1.1952
-  origversion: null
-  status: outdated
-  summary: Vim an advanced text editor.
-  maintainers:
-    - uglyside@yandex.ru
-  licenses:
-    - custom
-  vulnerable: true
 - repo: slackbuilds
   srcname: development/xxd-standalone
   visiblename: development/xxd-standalone
@@ -26237,6 +26187,16 @@
     - volkerdi@slackware.com
   vulnerable: true
 - repo: slackware_15_0
+  subrepo: slackware
+  binname: vim-gvim
+  visiblename: vim-gvim
+  version: 8.2.4256
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackware_15_0
   subrepo: patches
   binname: vim
   visiblename: vim
@@ -26291,6 +26251,46 @@
   binname: vim-gvim
   visiblename: vim-gvim
   version: 9.1.2072
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: vim
+  visiblename: vim
+  version: 8.2.4256
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: vim-gvim
+  visiblename: vim-gvim
+  version: 8.2.4256
+  origversion: null
+  status: legacy
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: vim
+  visiblename: vim
+  version: 9.1.2072
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: vim-gvim
+  visiblename: vim-gvim
+  version: 9.1.2028
   origversion: null
   status: outdated
   maintainers:
@@ -26920,30 +26920,6 @@
     - editors
   vulnerable: true
 - repo: ubuntu_26_04
-  subrepo: resolute-updates/main
-  srcname: vim
-  binnames:
-    - vim-common
-    - vim-gui-common
-    - vim-runtime
-    - vim-doc
-    - vim-tiny
-    - vim
-    - vim-gtk3
-    - vim-nox
-    - vim-motif
-    - xxd
-  visiblename: vim
-  version: 9.1.2141
-  origversion: 2:9.1.2141-1ubuntu4.9
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - jamessan@debian.org
-  categories:
-    - editors
-  vulnerable: true
-- repo: ubuntu_26_04
   subrepo: resolute/main
   srcname: vim
   binnames:
@@ -26960,6 +26936,30 @@
   visiblename: vim
   version: 9.1.2141
   origversion: 2:9.1.2141-1ubuntu4
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - jamessan@debian.org
+  categories:
+    - editors
+  vulnerable: true
+- repo: ubuntu_26_04
+  subrepo: resolute-updates/main
+  srcname: vim
+  binnames:
+    - vim-common
+    - vim-gui-common
+    - vim-runtime
+    - vim-doc
+    - vim-tiny
+    - vim
+    - vim-gtk3
+    - vim-nox
+    - vim-motif
+    - xxd
+  visiblename: vim
+  version: 9.1.2141
+  origversion: 2:9.1.2141-1ubuntu4.9
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
