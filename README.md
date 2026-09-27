@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,950 · **Forks**: 6,136 · **Open issues**: 9,777 · **Contributors**: 803
+- **Stars**: 40,964 · **Forks**: 6,138 · **Open issues**: 9,778 · **Contributors**: 803
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 60 · **Closed issues**: 8215 · **Open issues**: 1562 · **Commits**: 24540
+- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 65 · **Closed issues**: 8215 · **Open issues**: 1563 · **Commits**: 24541
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 0 | 0 | 12 | 19 | 12 | 208 |
-| last60d | 2026-07-28 | 0 | 0 | 17 | 85 | 24 | 514 |
-| 90d | 2026-06-28 | 0 | 0 | 26 | 135 | 31 | 714 |
-| last180d | 2026-03-30 | 0 | 0 | 32 | 285 | 68 | 1473 |
-| 360d | 2025-10-01 | 0 | 0 | 42 | 578 | 154 | 2565 |
-| last720d | 2024-10-06 | 0 | 2 | 53 | 1196 | 317 | 4276 |
+| 30d | 2026-08-28 | 0 | 0 | 17 | 18 | 13 | 169 |
+| last60d | 2026-07-29 | 0 | 0 | 22 | 81 | 24 | 430 |
+| 90d | 2026-06-29 | 0 | 0 | 31 | 133 | 31 | 666 |
+| last180d | 2026-03-31 | 0 | 0 | 37 | 284 | 68 | 1403 |
+| 360d | 2025-10-02 | 0 | 0 | 47 | 578 | 155 | 2509 |
+| last720d | 2024-10-07 | 0 | 2 | 58 | 1194 | 315 | 4270 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for vim lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T05:53:04Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T06:13:53Z._
