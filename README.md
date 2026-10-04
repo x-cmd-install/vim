@@ -14,12 +14,12 @@ x install vim
 
 ## Code insight
 
-Total: **1,105,220** lines of code across **2929** files in the top 5 languages.
+Total: **1,105,239** lines of code across **2929** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| VimScript | 581,193 | 25,452 | 30,362 | 2580 |
-| C | 444,544 | 78,113 | 49,103 | 220 |
+| VimScript | 581,216 | 25,452 | 30,362 | 2580 |
+| C | 444,540 | 78,115 | 49,103 | 220 |
 | CHeader | 33,682 | 5,962 | 4,267 | 78 |
 | Makefile | 10,175 | 2,651 | 1,806 | 44 |
 | Cpp | 6,221 | 1,176 | 1,199 | 7 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 41,016 · **Forks**: 6,138 · **Open issues**: 9,791 · **Contributors**: 807
+- **Stars**: 41,068 · **Forks**: 6,141 · **Open issues**: 9,792 · **Contributors**: 807
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 70 · **Closed issues**: 8225 · **Open issues**: 1566 · **Commits**: 24600
+- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 75 · **Closed issues**: 8225 · **Open issues**: 1567 · **Commits**: 24605
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 0 | 0 | 22 | 23 | 15 | 197 |
-| last60d | 2026-08-04 | 0 | 0 | 27 | 82 | 27 | 458 |
-| 90d | 2026-07-05 | 0 | 0 | 35 | 136 | 33 | 694 |
-| last180d | 2026-04-06 | 0 | 0 | 42 | 285 | 71 | 1431 |
-| 360d | 2025-10-08 | 0 | 0 | 52 | 573 | 155 | 2537 |
-| last720d | 2024-10-13 | 0 | 2 | 63 | 1191 | 316 | 4305 |
+| 30d | 2026-09-04 | 0 | 0 | 27 | 20 | 16 | 144 |
+| last60d | 2026-08-05 | 0 | 0 | 32 | 78 | 27 | 397 |
+| 90d | 2026-07-06 | 0 | 0 | 40 | 135 | 34 | 698 |
+| last180d | 2026-04-07 | 0 | 0 | 47 | 285 | 71 | 1396 |
+| 360d | 2025-10-09 | 0 | 0 | 57 | 571 | 156 | 2498 |
+| last720d | 2024-10-14 | 0 | 2 | 68 | 1188 | 317 | 4302 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for vim lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T06:11:31Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:49:12Z._
