@@ -14,13 +14,13 @@ x install vim
 
 ## Code insight
 
-Total: **1,106,034** lines of code across **2932** files in the top 5 languages.
+Total: **1,106,599** lines of code across **2932** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| VimScript | 581,830 | 25,495 | 30,584 | 2583 |
-| C | 444,693 | 78,204 | 49,130 | 220 |
-| CHeader | 33,692 | 5,968 | 4,267 | 78 |
+| VimScript | 582,175 | 25,500 | 30,609 | 2583 |
+| C | 444,907 | 78,255 | 49,156 | 220 |
+| CHeader | 33,697 | 5,970 | 4,267 | 78 |
 | Makefile | 10,179 | 2,651 | 1,806 | 44 |
 | Cpp | 6,221 | 1,176 | 1,199 | 7 |
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 41,154 · **Forks**: 6,186 · **Open issues**: 9,845 · **Contributors**: 810
+- **Stars**: 41,148 · **Forks**: 6,192 · **Open issues**: 9,845 · **Contributors**: 810
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 119 · **Closed issues**: 8246 · **Open issues**: 1599 · **Commits**: 24667
+- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 114 · **Closed issues**: 8254 · **Open issues**: 1591 · **Commits**: 24675
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 0 | 0 | 67 | 25 | 46 | 96 |
-| last60d | 2026-08-21 | 0 | 0 | 72 | 58 | 54 | 308 |
-| 90d | 2026-07-22 | 0 | 0 | 80 | 124 | 63 | 629 |
-| last180d | 2026-04-23 | 0 | 0 | 91 | 282 | 96 | 1344 |
-| 360d | 2025-10-25 | 0 | 0 | 98 | 567 | 184 | 2497 |
-| last720d | 2024-10-30 | 0 | 2 | 112 | 1193 | 343 | 4301 |
+| 30d | 2026-09-21 | 0 | 0 | 62 | 32 | 36 | 98 |
+| last60d | 2026-08-22 | 0 | 0 | 67 | 64 | 44 | 310 |
+| 90d | 2026-07-23 | 0 | 0 | 75 | 126 | 55 | 631 |
+| last180d | 2026-04-24 | 0 | 0 | 86 | 289 | 84 | 1346 |
+| 360d | 2025-10-26 | 0 | 0 | 93 | 574 | 176 | 2499 |
+| last720d | 2024-10-31 | 0 | 2 | 107 | 1199 | 335 | 4307 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for vim lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T05:47:53Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T05:41:32Z._
