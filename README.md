@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 41,155 · **Forks**: 6,175 · **Open issues**: 9,847 · **Contributors**: 811
+- **Stars**: 41,159 · **Forks**: 6,176 · **Open issues**: 9,848 · **Contributors**: 811
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 115 · **Closed issues**: 8258 · **Open issues**: 1589 · **Commits**: 24687
+- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 119 · **Closed issues**: 8258 · **Open issues**: 1590 · **Commits**: 24687
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 0 | 63 | 35 | 34 | 102 |
-| last60d | 2026-08-24 | 0 | 0 | 68 | 64 | 42 | 314 |
-| 90d | 2026-07-25 | 0 | 0 | 75 | 129 | 53 | 635 |
-| last180d | 2026-04-26 | 0 | 0 | 87 | 292 | 82 | 1350 |
-| 360d | 2025-10-28 | 0 | 0 | 94 | 575 | 173 | 2503 |
-| last720d | 2024-11-02 | 0 | 2 | 108 | 1203 | 332 | 4308 |
+| 30d | 2026-09-24 | 0 | 0 | 67 | 35 | 34 | 102 |
+| last60d | 2026-08-25 | 0 | 0 | 72 | 63 | 43 | 314 |
+| 90d | 2026-07-26 | 0 | 0 | 77 | 128 | 54 | 635 |
+| last180d | 2026-04-27 | 0 | 0 | 91 | 292 | 83 | 1350 |
+| 360d | 2025-10-29 | 0 | 0 | 98 | 573 | 174 | 2503 |
+| last720d | 2024-11-03 | 0 | 2 | 112 | 1203 | 332 | 4295 |
 
 ## Distribution status
 
-Reported by **2152** distros on [repology.org](https://repology.org/project/vim). **3** are ✅ on the latest upstream release, **426** are ⚠️ on an older version.
+Reported by **2153** distros on [repology.org](https://repology.org/project/vim). **5** are ✅ on the latest upstream release, **425** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for vim lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:39:11Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:28:08Z._
