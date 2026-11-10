@@ -14,13 +14,13 @@ x install vim
 
 ## Code insight
 
-Total: **1,114,342** lines of code across **2942** files in the top 5 languages.
+Total: **1,116,190** lines of code across **2946** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| VimScript | 589,257 | 25,700 | 30,799 | 2593 |
-| C | 445,463 | 78,466 | 49,200 | 220 |
-| CHeader | 33,705 | 5,970 | 4,267 | 78 |
+| VimScript | 591,000 | 25,667 | 30,401 | 2597 |
+| C | 445,567 | 78,493 | 49,202 | 220 |
+| CHeader | 33,706 | 5,967 | 4,266 | 78 |
 | Makefile | 10,187 | 2,651 | 1,807 | 44 |
 | Cpp | 6,221 | 1,176 | 1,199 | 7 |
 
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 41,194 · **Forks**: 6,282 · **Open issues**: 9,916 · **Contributors**: 826
+- **Stars**: 41,199 · **Forks**: 6,286 · **Open issues**: 9,920 · **Contributors**: 827
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 149 · **Closed issues**: 8292 · **Open issues**: 1624 · **Commits**: 24789
+- **Releases**: 0 · **Merged PRs**: 440 · **Open PRs**: 152 · **Closed issues**: 8297 · **Open issues**: 1623 · **Commits**: 24805
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 92 | 51 | 62 | 112 |
-| last60d | 2026-09-09 | 0 | 0 | 101 | 77 | 76 | 231 |
-| 90d | 2026-08-10 | 0 | 0 | 105 | 128 | 86 | 526 |
-| last180d | 2026-05-12 | 0 | 0 | 119 | 293 | 115 | 1311 |
-| 360d | 2025-11-13 | 0 | 0 | 128 | 582 | 204 | 2534 |
-| last720d | 2024-11-18 | 0 | 2 | 141 | 1216 | 359 | 4310 |
+| 30d | 2026-10-11 | 0 | 0 | 95 | 55 | 59 | 129 |
+| last60d | 2026-09-11 | 0 | 0 | 103 | 79 | 75 | 248 |
+| 90d | 2026-08-12 | 0 | 0 | 106 | 130 | 84 | 543 |
+| last180d | 2026-05-14 | 0 | 0 | 122 | 297 | 114 | 1328 |
+| 360d | 2025-11-15 | 0 | 0 | 131 | 583 | 203 | 2551 |
+| last720d | 2024-11-20 | 0 | 2 | 144 | 1218 | 356 | 4308 |
 
 ## Distribution status
 
-Reported by **2164** distros on [repology.org](https://repology.org/project/vim). **19** are ✅ on the latest upstream release, **412** are ⚠️ on an older version.
+Reported by **2167** distros on [repology.org](https://repology.org/project/vim). **3** are ✅ on the latest upstream release, **429** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -71,11 +71,11 @@ Reported by **2164** distros on [repology.org](https://repology.org/project/vim)
 | Ubuntu 26.04 LTS | `9.1.2141` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `9.1.0016` | ⚠️ outdated |
 | Arch | `9.2.1178` | ⚠️ outdated |
-| Homebrew | `9.2.1302` | ✅ latest |
-| Fedora rawhide | `9.2.1302` | ✅ latest |
+| Homebrew | `9.2.1308` | ⚠️ outdated |
+| Fedora rawhide | `9.2.1302` | ⚠️ outdated |
 | Nix unstable | `9.2.1164` | ⚠️ outdated |
 | Void | `9.2.1031` | ⚠️ outdated |
-| Alpine edge | `9.2.1202` | ⚠️ outdated |
+| Alpine edge | `9.2.1310` | ⚠️ outdated |
 | openSUSE Tumbleweed | `9.2.1202` | ⚠️ outdated |
 
 ## Improve this data
@@ -87,4 +87,4 @@ Install metadata for vim lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T07:01:40Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T08:25:22Z._
