@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T09:48:26Z
+  collectedAt: 2026-11-28T09:23:09Z
 timeline:
   created: 2015-08-18
   lastCommit: 2026-11-25
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 41410
-  watcher: 691
-  fork: 6253
+  star: 41321
+  watcher: 689
+  fork: 6247
   release: 0
   contributor: 834
-  pullRequest: 11755
-  issue: 9974
+  pullRequest: 11762
+  issue: 9976
 language:
   Vim Script: 22262344
   C: 16061396
@@ -74,63 +74,63 @@ language:
 totalBytes: 41107008
 recent:
   last30d:
-    since: 2026-10-28
-    release: 0
-    mergedPR: 0
-    openPR: 113
-    closedIssue: 69
-    openIssue: 43
-    commit: 210
-  last60d:
-    since: 2026-09-28
+    since: 2026-10-29
     release: 0
     mergedPR: 0
     openPR: 120
-    closedIssue: 130
-    openIssue: 61
+    closedIssue: 66
+    openIssue: 45
+    commit: 210
+  last60d:
+    since: 2026-09-29
+    release: 0
+    mergedPR: 0
+    openPR: 127
+    closedIssue: 129
+    openIssue: 63
     commit: 315
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 0
-    openPR: 124
-    closedIssue: 156
-    openIssue: 69
+    openPR: 131
+    closedIssue: 155
+    openIssue: 70
     commit: 520
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 0
-    openPR: 140
-    closedIssue: 322
-    openIssue: 92
+    openPR: 147
+    closedIssue: 321
+    openIssue: 94
     commit: 1297
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
     mergedPR: 0
-    openPR: 149
-    closedIssue: 630
-    openIssue: 185
+    openPR: 156
+    closedIssue: 629
+    openIssue: 186
     commit: 2605
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
     mergedPR: 2
-    openPR: 163
-    closedIssue: 1266
-    openIssue: 333
-    commit: 4368
+    openPR: 170
+    closedIssue: 1263
+    openIssue: 334
+    commit: 4364
 total:
   release: 0
   mergedPR: 440
-  openPR: 170
+  openPR: 177
   closedIssue: 8366
-  openIssue: 1608
+  openIssue: 1610
   commit: 24932
 ---
 path: /home/runner/.x-repo/github.com/vim/vim
-collectedAt: 2026-11-27T09:49:29Z
+collectedAt: 2026-11-28T09:24:00Z
 loc:
   VimScript:
     code: 594704
